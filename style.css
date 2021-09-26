@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif; 
+}
+
+html,body {
+    height: 100%;
+  }
+
+.material-icons, .btn-text {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.material-icons {
+    color: #EB4D4D;
+    stroke-width: 1em;
+}
+
+.btn-text {
+    font-size: 1.5em;
+}
+
+.active {
+    color: blue;
+}
+
+.btn-perso { 
+    color: #555;
+    background: none;
+    align-items: center;
+    justify-items: center;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.btn-perso:hover { 
+    font-weight: 600;
+}
+
+#board-game {
+    margin-top: 5%;
+}
+
+.hide {
+    display: none;
+}
+
+.center {
+    align-items: center;
+    justify-items: center;
+}
+
+.player-current-box {
+    border: 1px solid #eee;
+    margin: 7px auto;
+    width: 40%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
+}
+
+.player-name {
+    font-size: 3vw;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.player-score {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 100;
+    color: #EB4D4D;
+    margin-bottom: 130px;
+}
+
+.player-current-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    font-weight: 300;
+    color: #222;
+}
+
+.player-current-score {
+    font-size: 2vw;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.hold { 
+    border: 1px solid #eee;
+    margin: 7px auto;
+    width: 40%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
+}
+
+.img-resp {
+    max-width: 100%;
+    height: auto;
+}
+
+.m-10 {
+    margin: 20px;
+    text-align: center;
+}
+
+.m-spec {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}

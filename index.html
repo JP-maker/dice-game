@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice-game</title>
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+            
+</head>
+<body>
+    <div class="container" id="board-game">
+        <div class="row">
+            <div class="z-depth-3 col s12">
+                <div class="row">
+                    <div class="col s5 player-1-panel">     
+                        <div class="player-name" id="player-name-1">
+                            <i class="large material-icons">arrow_forward</i>
+                            Player 1
+                        </div>
+                        <div class="player-score" id="score-1">
+                            43
+                        </div>
+                        <div class="player-current-box">
+                            <div class="player-current-label">
+                                Current
+                            </div>
+                            <div class="player-current-score" id="current-1">
+                                11
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s2">
+                        <div class="row">
+                            <div class="col s12 m-10">
+                                <button class="btn-perso">
+                                    <i class="small material-icons img-resp">add_circle_outline</i>
+                                    <span class="btn-new btn-text">new game</span>
+                                </button>
+                            </div>
+                            <div class="col s12 m-10">
+                                <img src="images/dice-1.png" alt="Dice" class="z-depth-3 materialboxed img-resp dice">
+                            </div>
+                            <div class="col s12 m-spec">
+                                <button class="btn-perso btn-roll">
+                                    <i class="small material-icons">autorenew</i>
+                                    <span class="btn-text">Roll dice</span>
+                                </button>
+                            </div>
+                            <div class="col s12 m-10">
+                                <button class="btn-perso btn-hold">
+                                    <i class="small material-icons">system_update_alt</i>
+                                    <span class="btn-text">hold</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s5 player-2-panel">
+                        <div class="player-name" id="player-name-2">
+                            Player 2
+                        </div>
+                        <div class="player-score" id="score-2">
+                            72
+                        </div>
+                        <div class="player-current-box">
+                            <div class="player-current-label">
+                                Current
+                            </div>
+                            <div class="player-current-score" id="current-2">
+                                0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
