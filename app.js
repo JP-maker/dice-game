@@ -69,7 +69,7 @@ function nextPlayer() {
         document.getElementById('player-name-'+index).innerHTML = 'Player '+index;
     }
 
-    document.getElementById('player-name-'+activePlayer).innerHTML = '<i class="medium material-icons">arrow_forward</i>Player '+activePlayer;
+    document.getElementById('player-name-'+activePlayer).innerHTML = '<i class="small material-icons">arrow_forward</i>Player '+activePlayer;
     //document.querySelector('.dice').style.display = 'none';
 }
 
@@ -94,7 +94,7 @@ function init() {
     document.querySelector('.btn-hold').classList.add('hide');
     document.querySelector('.btn-roll').classList.remove('hide')
     document.querySelector('.player-1-panel').classList.add('active');
-    document.getElementById('player-name-1').innerHTML = '<i class="medium material-icons">arrow_forward</i>Player 1';
+    document.getElementById('player-name-1').innerHTML = '<i class="small material-icons">arrow_forward</i>Player 1';
 }
 
 
